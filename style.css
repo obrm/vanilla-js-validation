@@ -58,6 +58,10 @@ h2 {
   font-size: 14px;
 }
 
+.form-control input::placeholder {
+  text-transform: capitalize;
+}
+
 .form-control input:focus {
   outline: 0;
   border-color: #777;
